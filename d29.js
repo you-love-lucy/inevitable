@@ -47,7 +47,7 @@ const storyNodes = {
     6: {
         text: "I'm going to go to the cops soon.",
         choices: [
-            { text: "Well, keep me updated.", next: "5" },
+            { text: "Well, keep me updated." },
             { text: "I think you might be in danger.", redirect: "gameover.html"}
         ]
     }
@@ -77,5 +77,6 @@ function showNode(nodeName) {
         });
     }
 }
+
 
 showNode("start");
