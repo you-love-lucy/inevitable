@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="inevitable.css">
+        <script type="text/javascript" src="inevitable.js"></script>
+    </head>
+
+    <body>
+        <form id="loginForm" action="dashboard.html" onsubmit="getNames()">
+            <p>Enter your real name:</p>
+            <input 
+                type="text" 
+                id="firstName" 
+                name="firstName" 
+                placeholder="What your friends will call you" 
+                required
+            >
+
+            <p>Enter your SolveIt username:</p>
+            <input 
+                type="text" 
+                id="username" 
+                name="username" 
+                placeholder="What forum members will call you" 
+                required
+            >
+
+            <p style="padding-bottom: 25px;"></p>
+
+            <button class="decision" type="submit">Log in</button>
+        </form>
+    </body>
+</html>

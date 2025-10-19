@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(45, 45, 45);
+}
+
+input {
+    width: 200px;
+}
+
+.dash {
+    display:inline;
+    background-color: rgb(45, 45, 45);
+    color:greenyellow;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 30px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 3px;
+    text-decoration: none;
+    float: right;
+    margin-left: 5px;
+}
+
+.dropdown {
+    float:right;
+    position: relative;
+}
+
+.friendsList {
+    display: none;
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 5px;
+    background-color: black;
+}
+
+.friendsList a {
+    text-decoration: none;
+    color:greenyellow;
+}
+
+.dropdown:hover .friendsList {
+    display:block;
+}
+
+td {
+    background-color: gray;
+}
+
+#logo {
+    float:left;
+    margin-left: 0px;
+}
+
+a {
+    color: greenyellow;
+}
+
+.dashboard {
+    background-color: black;
+    height: 50px;
+    padding: 5px;
+    border: solid;
+    border-color: gray;
+    border-radius: 7px;
+}
+
+.dashButton {
+    background-color: rgb(45, 45, 45);
+    color: greenyellow;
+    float: right;
+    margin-left: 10px;
+}
+
+#story {
+    height: 15vh;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    padding-left: 1px;
+    padding-top: 10px;
+}
+
+.decision {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(168, 168, 168);
+    border-radius: 5%;
+    border-style: outset;
+    border-color: gray;
+    border-width: 5px;
+}
+
+button {
+    font-size: 20px;
+    color: black;
+    float:right;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(168, 168, 168);
+    border-radius: 2%;
+    border-style: outset;
+    border-color: gray;
+    border-width: 3px;
+}
+
+button:active, button:hover, .decision:active, .decision:hover {
+    border-style: inset;
+    color: greenyellow;
+    background-color: rgb(160, 160, 160);
+}
+
+.forum {
+    border-style: solid;
+    border-color: black;
+}
+
+.message {
+    border-style: solid;
+    border-color: greenyellow;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: rgb(120, 120, 120);
+}
+
+.title {
+    text-align: center;
+    margin: 5px;
+}
+
